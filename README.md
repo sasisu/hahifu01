@@ -3,4 +3,4 @@
 heroku test ok　　
 (余分なものがあると思いますが)
 
-[heroku](https://dashboard.heroku.com/apps/hahifu01)
+[heroku](https://hahifu01.herokuapp.com/)
