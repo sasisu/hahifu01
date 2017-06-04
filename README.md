@@ -1,5 +1,5 @@
 # hahifu01
 
-heroku test error
+heroku test ok
 
 [heroku](https://dashboard.heroku.com/apps/hahifu01)
