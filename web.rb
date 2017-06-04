@@ -10,4 +10,6 @@ srv=WEBrick::HTTPServer.new({
    Port: ARGV[0],   
 })
 
+srv.mount('/',WEBrick::HTTPServlet::CGIHandler,'./index.rb')
+
 srv.start
