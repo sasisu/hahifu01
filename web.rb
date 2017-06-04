@@ -6,7 +6,8 @@ end
 
 srv=WEBrick::HTTPServer.new({
    DocumentRoot: './',
-   CGIInterpreter: '../usr/bin/ruby'
+   CGIInterpreter: '../usr/bin/ruby',
+   Port: '80',   
 })
 
 srv.start
