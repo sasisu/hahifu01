@@ -1,7 +1,7 @@
 require 'webrick'
 
 module WEBrick::HTTPServlet
-   FileHandler.add_handler('rb',PROChandler)
+   FileHandler.add_handler('rb',ERBhandler)
 end
 
 srv=WEBrick::HTTPServer.new({
